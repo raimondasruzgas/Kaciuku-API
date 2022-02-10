@@ -5,14 +5,14 @@ namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("/")]
-    public class SuniukuController : ControllerBase
+    public class KaciukuController : ControllerBase
     {
         [HttpGet]
         [Route("/")]
-        public Suniukas GautiSuniuka()
+        public Kaciukas GautiKaciuka()
         {
-            int RamdomNr = new Random().Next(0, DB.Suniukai.Count);
-            return DB.Suniukai[RamdomNr];
+            int RandomNr = new Random().Next(0, DB.Kaciukai.Count);
+            return DB.Kaciukai[RandomNr];
         }
     }
 }

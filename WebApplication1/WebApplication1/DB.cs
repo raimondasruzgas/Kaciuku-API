@@ -4,27 +4,27 @@ namespace WebApplication1
 {
     public static class DB
     {
-        public static List<Suniukas> Suniukai = new List<Suniukas>()
+        public static List<Kaciukas> Kaciukai = new List<Kaciukas>()
         {
-            new Suniukas()
+            new Kaciukas()
             {
-                Name = "Meskis",
-                Picture = "https://images.dog.ceo/breeds/terrier-dandie/n02096437_1207.jpg"
+                Name = "PUkis",
+                Picture = "https://cdn2.thecatapi.com/images/MTkxODY3NA.gif"
             },
-            new Suniukas()
+            new Kaciukas()
             {
-                Name = "Reksas",
-                Picture = "https://images.dog.ceo/breeds/cattledog-australian/IMG_1042.jpg"
+                Name = "Rainius",
+                Picture = "https://cdn2.thecatapi.com/images/DScuohlFS.jpg"
             },
-            new Suniukas()
+            new Kaciukas()
             {
-                Name = "Sargiukas",
-                Picture = "https://images.dog.ceo/breeds/mastiff-bull/n02108422_2094.jpg"
+                Name = "Tomiukas",
+                Picture = "https://cdn2.thecatapi.com/images/6vq.jpg"
             },
-            new Suniukas()
+            new Kaciukas()
             {
-                Name = "Kudlius",
-                Picture = "https://images.dog.ceo/breeds/ovcharka-caucasian/IMG_20190628_144817.jpg"
+                Name = "Murkis",
+                Picture = "https://cdn2.thecatapi.com/images/tVcXpXU6a.jpg"
             }
         };
     }
